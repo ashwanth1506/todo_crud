@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#head {
+  position: relative;
+  color: #3B82F6  ;
+  margin-top: -250px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  font-style: oblique;    
+  font-size: 40px;
+  font-weight: bold;
+ 
+  
+  
+}
+#inp{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px rgb(0, 102, 255) solid;
+  height: 50px;
+  width: 300px;
+  color: rgb(0, 102, 255);
+  border-radius: 8px;
+  margin-top: 30px;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  
+  
+}
+#btn{
+  border: 2px rgb(0, 0, 0) solid;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 102, 255);
+  outline: none;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -198px;
+  
+  
+
+}
+#btn2 {
+  border: 2px rgb(0, 0, 0) solid;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 102, 255);
+  outline: none;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: -207px;
+
+  /* 👇 smooth animation */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#btn2:hover {
+  transform: scale(1.2);
+  background-color: rgb(0, 80, 200);
+}
+
+#task{
+  display: flex;
+  margin-top: 200px;
+  position: absolute;
+  color:#9CA3AF;
+  font-size: 25px;
+  margin-left: 40px;
+  align-items: center;
+}
+
+
